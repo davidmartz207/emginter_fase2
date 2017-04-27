@@ -1,0 +1,83 @@
+#pdf-product{
+    padding-top: 2px;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+#pdf-product .logo{
+    border-bottom: solid 1px #ddd;
+    margin-bottom: 10px;
+    padding: 1px;
+    height: 70px;
+}
+#pdf-product .logo img{
+    width: 70px;
+    height: 70px;
+}
+#pdf-product .row{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #de2211;
+    text-align: center;
+}
+#pdf-product .row .imagen{
+    margin-right: 10px;
+}
+#pdf-product .row .imagen img{
+    max-width: 200px;
+    max-height: 200px;
+}
+#pdf-product .row .titulo{
+    padding-top: 10px;
+}
+#pdf-product .row .sub-titulo{
+    font-size: 14px;
+    color: #383838;
+    margin-top: 10px;
+}
+#pdf-product .row .titulo a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #de2211;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#pdf-product .row .datos-linea{
+    font-size: 14px;
+    color: #de2211;
+    text-align: center;
+}
+#pdf-product .row .descripcion{
+    font-size: 14px;
+    font-weight: normal;
+    color: #5c5b5b;
+    text-align: justify;
+    margin-top: 5px;
+    word-break: break-all;
+}
+#pdf-product .row .tabla-content{
+    text-align: center;
+    padding-top: 20px;
+}
+#pdf-product .row table{
+   margin: 0 auto;
+   width: 700px;
+}
+#pdf-product .row table thead tr th{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+#pdf-product .row table tbody tr{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#pdf-product .row table tbody tr:nth-child(odd){background: #eee;}
+#pdf-product .row table tbody tr:nth-child(even){background: #fff;}
+#pdf-product .row table tbody td{
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}

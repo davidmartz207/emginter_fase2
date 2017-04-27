@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always">
+    <serverData>
+      <paths name="ec2-54-207-89-98.sa-east-1.compute.amazonaws.com">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/html/emginter" local="$PROJECT_DIR$" web="/emginter" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
+
