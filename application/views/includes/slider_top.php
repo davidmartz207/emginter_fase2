@@ -39,7 +39,8 @@
                 <input type="hidden" id="" name="selTiposProductosDownloads" value="<?=$arrLast_product[$i]['tipo_id'] ?>"/>
                 <?php 
                 echo '<img class="img-slider img-responsive" src="'.image('media/top_gallery/'.$arrSliderTop[$counter_slides]['path_img'], 'slider_top').'" title="'.$arrSliderTop[$counter_slides]['nombre'].'">';
-                if(isset($arrLast_product[$i])){ // _slider
+
+                /*if(isset($arrLast_product[$i])){ // _slider
                     echo '
                     <div class="carousel-caption hidden-xs">
                         <div class="descripcion ">
@@ -67,6 +68,7 @@
                         </div>
                     </div>';#end div descripcion
                 }
+                */
                 ?>
                 </form>
                 <?php

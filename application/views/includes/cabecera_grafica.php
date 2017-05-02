@@ -87,7 +87,7 @@
         <div class="col-xs-12 col-sm-12 col-md-2 col-lg-3">
             <div class="header__logo">
                 <a href="<?php echo site_url('home'); ?>">
-                    <img src="<?php echo base_url().'includes/images/logo.png'; ?>">
+                    <img width="68%" src="<?php echo base_url().'includes/images/logo.png'; ?>">
                 </a>
             </div>
         </div>
