@@ -11,10 +11,9 @@
                 <div class="descripcion"><?php echo $arrContent['contenido']; ?></div>
             </div>
             <div class="col-lg-4 div-imagen">
-                <?php echo '<img class="img-responsive" src="'.image('media/contenidos/'.$arrContent['path_img'], 'img_about_us').'" 
+                <?php echo '<img class="img-responsive" src="'.image('media/contenidos/'.$arrContent['path_img'], 'img_about_us').'"
                             alt="'.$arrContent['titulo'].'" title="'.$arrContent['titulo'].'">';
                 ?>
-                <div class="top-30"><a href="<?php echo site_url('catalog_products'); ?>"><?php echo set_label('label_catalog'); ?></a></div>
             </div>
         <?php }else {
              echo '<div class="col-lg-12">';
