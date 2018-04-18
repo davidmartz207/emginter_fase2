@@ -15,7 +15,7 @@
 |
 */
 
-$config['base_url'] = 'http://staging.emginter.com/';
+$config['base_url'] = 'http://emginter.com/';
 
 /*
 |--------------------------------------------------------------------------
