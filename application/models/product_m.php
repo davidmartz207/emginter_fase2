@@ -76,7 +76,7 @@ class Product_m extends CI_Model{
         $this->db->select('p.id_producto,p.oem,p.new_release,
                            tp.nombre_en AS tipo_producto_en,tp.nombre_es AS tipo_producto_es,
                            p.descripcion_es, p.descripcion_en,
-                           p.smp,p.wells,dai.nombre as dai,p.sku,p.precio,p.url_post,
+                           p.smp,p.wells,dai.nombre as dai,p.sku,p.precio,p.url_post,p.path_img,
                            m.nombre AS marca,ap.ref_id_modelo,GROUP_CONCAT(DISTINCT oem.nombre ) AS oemn,
                         GROUP_CONCAT(DISTINCT smp.nombre ) AS smpn,
                         GROUP_CONCAT(DISTINCT wells.nombre ) AS wellsn,

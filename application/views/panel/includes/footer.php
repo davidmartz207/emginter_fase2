@@ -119,6 +119,33 @@
 
 $(document).ready(function(){
 
+    //funcionalidad para manejar el tiempo de sesion
+    ini();
+    var tiempo;
+
+    function ini() {
+        tiempo = setTimeout(
+            function () {
+                window.location.href = "http://emginter.com/en/logout";
+            }
+            ,
+            900000
+        );
+    }
+    //cuando se mueve el raton
+    $('html body').on('mousemove', function () {
+        parar();
+    });
+    //cuando se presiona cualquier tecla
+    $('html body').on('keypress', function () {
+        parar();
+    });
+    //se reinicia el timer
+    function parar() {
+        clearTimeout(tiempo);
+        ini();
+    }
+
     $("#reset_search_form").on("click", function(e){
         e.preventDefault();
 
