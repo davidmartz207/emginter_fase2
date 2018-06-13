@@ -454,7 +454,7 @@ class Panel_products extends CI_Controller
                     array(
                         'field' => 'txtSKU',
                         'label' => 'Código SKU',
-                        'rules' => 'required|min_length[2]|max_length[255]'
+                        'rules' => 'required|min_length[2]|max_length[10000]'
                     ),
                     array(
                         'field' => 'selTiposProductos',
@@ -484,12 +484,12 @@ class Panel_products extends CI_Controller
                     array(
                         'field' => 'txtSMP',
                         'label' => 'SMP',
-                        'rules' => 'max_length[255]'
+                        'rules' => 'max_length[10000]'
                     ),
                     array(
                         'field' => 'txtWells',
                         'label' => 'Wells',
-                        'rules' => 'max_length[255]'
+                        'rules' => 'max_length[10000]'
                     ),
                     array(
                         'field' => 'selEstatus',
@@ -499,7 +499,7 @@ class Panel_products extends CI_Controller
                     array(
                         'field' => 'txtDai',
                         'label' => 'DAI',
-                        'rules' => 'max_length[255]'
+                        'rules' => 'max_length[10000]'
                     ),
                 );
 
@@ -510,7 +510,7 @@ class Panel_products extends CI_Controller
                     $arrValidaciones[] = array(
                         'field' => 'txtOEM',
                         'label' => 'OEM',
-                        'rules' => 'required|min_length[1]|max_length[255]'
+                        'rules' => 'required|min_length[1]'
                     );
                 }
 

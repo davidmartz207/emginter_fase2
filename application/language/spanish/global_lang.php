@@ -24,7 +24,6 @@ $lang['our_products']          = 'NUESTROS PRODUCTOS';
 $lang['our_products_text']     = 'Como distribuidor líder en productos tales como sensores de la inyección y el sistema de gestión del motor, EMG Internacional ha<br> ganado una reputación como un proveedor de calidad de componentes comprobados en el mercado de accesorios que supera todas las expectativas.';
 $lang['label_connect_footer']  = 'SÍGUENOS EN';
 $lang['label_go_back']         = 'Regresar';
-$lang['line']                  = 'Línea';
 
 #labels
 $lang['label_is_our']         = 'ES NUESTRA META #1';
@@ -59,11 +58,13 @@ $lang['catalog']   	= 'Catálogo';
 $lang['orders']     = 'Pedidos';
 $lang['news']     = 'Noticias';
 $lang['contact']    = 'Contacto';
+$lang['legal']    = 'Legal';
 $lang['contactos_regionales']    = 'Contactos Regionales';
 $lang['login']      = 'Iniciar Sesión';
 $lang['logout']     = 'Cerrar Sesión';
 $lang['my_account'] = 'Mi Cuenta';
 $lang['register']   = 'Registrarse';
+$lang['legal']   = 'Legal';
 #end menu
 
 #login
@@ -74,8 +75,6 @@ $lang['field_email_sm']        = 'Correo Electrónico';
 $lang['field_email_lg']        = 'Introduzca su Correo Electrónico';
 $lang['field_password_sm']     = 'Contraseña';
 $lang['field_password_lg']     = 'Introduzca su Contraseña';
-$lang['user_logged_in_other_instance']    = 'Usuario logueado en otra instancia, cierre su sesión mas antigua: <li><a  href="'.site_url('logout').'">Aquí</a></li>';
-
 #end login
 
 #contact
@@ -123,9 +122,7 @@ $lang['field_sku_emg']               = 'Buscar por Número Parte EMG';
 $lang['field_sku_gen']               = 'Buscar por Número Parte';
 $lang['field_sku_placeholder_emg']   = 'Introduzca el número de parte EMG';
 $lang['field_sku_perfection']               = 'Buscar por Número Parte Perfection';
-$lang['field_sku_mrc']               = 'Buscar por Número Parte MRC';
 $lang['field_sku_placeholder_perfection']   = 'Introduzca el número de parte Perfection';
-$lang['field_sku_placeholder_mrc']   = 'Introduzca el número de parte mrc';
 $lang['field_sku_placeholder_gen']   = 'Introduzca el número de parte';
 $lang['field_competitor']        = 'Buscar por No. Parte Intercambio u OE';
 $lang['field_competitor_placeholder'] = 'Número OE o de la competencia';

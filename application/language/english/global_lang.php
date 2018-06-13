@@ -60,6 +60,7 @@ $lang['catalog']   	= 'Catalog';
 $lang['orders']     = 'Orders';
 $lang['news']     = 'News';
 $lang['contact']    = 'Contact';
+$lang['legal']    = 'Legal';
 $lang['contactos_regionales']    = 'Regional Contacts';
 $lang['login']      = 'Login';
 $lang['logout']     = 'Logout';
