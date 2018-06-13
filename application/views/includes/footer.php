@@ -10,7 +10,8 @@
                         <a class="reset_result" href="<?php echo site_url('about_us'); ?>"><?php echo lang('about_us'); ?></a> |
                         <a class="reset_result" href="<?php echo site_url('products'); ?>"><?php echo lang('products'); ?></a> |
                         <a class="reset_result" href="<?php echo site_url('orders'); ?>"><?php echo lang('orders'); ?></a> |
-                        <a class="reset_result" href="<?php echo site_url('contact'); ?>"><?php echo lang('contact'); ?></a>
+                        <a class="reset_result" href="<?php echo site_url('contact'); ?>"><?php echo lang('contact'); ?></a> |
+                        <a class="reset_result" href="<?php echo site_url('content/legal'); ?>"><?php echo lang('legal'); ?></a>
                     </h5>
                     <p>
                         <span class="icono-casa"><i class="fa fa-home fa-fw"></i>&nbsp;<?php echo strip_tags(get_config_db('direccion')); ?></span> | <span class="icono-tlf"><i class="fa fa-phone"></i>&nbsp;<?php echo get_config_db('telefono'); ?></span> | <span class="icono-email"><i class="fa fa-envelope"></i>&nbsp;<a href="mailto:<?php echo get_config_db('email_public'); ?>"><?php echo get_config_db('email_public'); ?></a></span>

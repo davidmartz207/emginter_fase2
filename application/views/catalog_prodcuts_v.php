@@ -169,11 +169,16 @@
                                     </a>
                                 </div>';
                             echo '<div class="col-lg-10 product-content">';
-                                echo '<div class="titulo">
-                                        <a href="'.site_url('product').'/index/'.$item['url_post'].'">'.$item['titulo'].'</a>
-                                      </div>';
-                                echo '<div class="datos-linea">'.$item['datos_linea'].'</div>';
-                                echo '<div class="descripcion"><p>'.$item['descripcion'].'</p></div>';
+                            echo '<div class="titulo">';
+                            echo '<a href="'.site_url('product').'/index/'.$item['url_post'].'">';
+                            echo $item['titulo'];
+                            echo '</a>';
+                            echo '</div>';
+                            echo '<div class="datos-linea">'.$item['datos_linea'].'</div>';
+                            echo '<div class="descripcion"><p>'.$item['descripcion'].'</p></div>';
+
+
+
 
                                 if(isset($item['arrApplicaciones']) and is_array($item['arrApplicaciones'])){ ?>
                                      <div class="panel panel-default">
