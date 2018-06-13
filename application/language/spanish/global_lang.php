@@ -64,6 +64,7 @@ $lang['login']      = 'Iniciar Sesión';
 $lang['logout']     = 'Cerrar Sesión';
 $lang['my_account'] = 'Mi Cuenta';
 $lang['register']   = 'Registrarse';
+$lang['legal']   = 'Legal';
 #end menu
 
 #login
